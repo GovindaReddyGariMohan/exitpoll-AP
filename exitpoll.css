@@ -1,0 +1,119 @@
+.try {
+    background-color: red;
+    color: white;
+}
+
+.try {
+    margin-top: 53px;
+    font-size: 39px;
+    border-top-left-radius: 62px;
+    padding: 13px 60px;
+}
+
+
+
+.content {
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 71px 57px;
+    margin-left: 291px;
+    gap: 11px;
+    color: white;
+    border: solid 32px;
+    /* padding-left: 32px; */
+    width: 69%;
+}
+
+.sub-heading {
+    position: absolute;
+    top: 4px;
+    left: 76px;
+    font-size: 30px;
+    background: white;
+    padding: 7px;
+
+}
+
+.yougesh {
+    position: absolute;
+    left: 0px;
+    top: 212px;
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+
+.text {
+    display: flex;
+    gap: 53px;
+    font-size: 48px;
+    font-family: sans-serif;
+}
+
+.score {
+    font-size: 73px;
+}
+
+.exit-poll-content {
+    background: #0000ff8a;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.exitpoll-content {
+    padding: 0px 90px 0 0;
+}
+
+.icon {
+    position: absolute;
+    top: 53px;
+    right: 17px;
+    background: red;
+    /* height: 39px; */
+    /* text-align: center; */
+    padding: 15px 22px;
+    font-size: 35px;
+    color: white;
+    font-weight: 800;
+}
+
+.heading {
+    border-left: solid 5px;
+    padding: 0 42px;
+}
+
+.icon1 {
+    text-align: center;
+    background: #a1de89;
+}
+
+@media screen and (max-width: 940px) {
+    .content {
+        display: flex;
+        /* justify-content: space-evenly; */
+        padding: 84px 39px;
+        margin-left: 291px;
+        gap: 11px;
+        color: white;
+        border: solid 32px;
+        /* padding-left: 32px; */
+        width: 52%;
+        flex-direction: column;
+    }
+    .yougesh {
+        position: absolute;
+        left: -106px;
+        top: 212px;
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+    .text {
+        display: flex;
+        gap: 53px;
+        font-size: 48px;
+        font-family: sans-serif;
+    }
+    .score {
+        font-size: 55px;
+    }
+}
