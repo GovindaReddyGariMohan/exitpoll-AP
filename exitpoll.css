@@ -21,7 +21,7 @@
     color: white;
     border: solid 32px;
     /* padding-left: 32px; */
-    width: 66%;
+    width: 69%;
 }
 
 .sub-heading {
@@ -36,7 +36,7 @@
 
 .yougesh {
     position: absolute;
-    left: -95px;
+    left: 0px;
     top: 212px;
     transform: scale3d(1.5, 1.5, 1.5);
 }
@@ -88,32 +88,108 @@
     background: #a1de89;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 990px) {
     .content {
         display: flex;
         /* justify-content: space-evenly; */
-        padding: 84px 39px;
+        padding: 71px 57px;
         margin-left: 291px;
         gap: 11px;
         color: white;
         border: solid 32px;
         /* padding-left: 32px; */
-        width: 52%;
+        width: 44%;
         flex-direction: column;
+
     }
+
     .yougesh {
         position: absolute;
         left: -106px;
         top: 212px;
         transform: scale3d(1.5, 1.5, 1.5);
     }
+
     .text {
         display: flex;
         gap: 53px;
         font-size: 48px;
         font-family: sans-serif;
     }
+
     .score {
-        font-size: 55px;
+        font-size: 42px;
     }
+
+    .exit-poll-content {
+        background: #0000ff8a;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: -318px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .yougesh {
+        position: absolute;
+        left: -79px;
+        top: 212px;
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+    .exit-poll-content {
+        background: #0000ff8a;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: -203px;
+    }
+    .content {
+        display: flex;
+        /* justify-content: space-evenly; */
+        padding: 71px 57px;
+        margin-left: 291px;
+        gap: 11px;
+        color: white;
+        border: solid 32px;
+        /* padding-left: 32px; */
+        width: 46%;
+        flex-direction: column;
+    }
+
+    .score {
+        font-size: 51px;
+
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .exit-poll-content {
+        background: #0000ff8a;
+        position: absolute;
+        left: 0;
+        right: -570px;
+        top: 0;
+        bottom: -318px;
+    }
+
+    .score {
+        font-size: 46px;
+    }
+
+    .content {
+        display: flex;
+        /* justify-content: space-evenly; */
+        padding: 71px 57px;
+        margin-left: 291px;
+        gap: 11px;
+        color: white;
+        border: solid 32px;
+        /* padding-left: 32px; */
+        width: 44%;
+        flex-direction: column;
+    }
+
 }
